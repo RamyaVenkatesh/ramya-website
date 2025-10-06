@@ -252,39 +252,39 @@ html {
     border-bottom-color: var(--accent-color);
 }
 
-/* Projects */
-.projects-list {
+/* Interests */
+.interests-list {
     font-size: 1rem;
 }
 
-.project-item {
+.interest-item {
     margin-bottom: 2.5rem;
 }
 
-.project-item h3 {
+.interest-item h3 {
     font-size: 1.1rem;
     color: var(--text-color);
     margin-bottom: 0.8rem;
     font-weight: 600;
 }
 
-.project-item p {
+.interest-item p {
     color: var(--secondary-color);
     margin-bottom: 0.5rem;
 }
 
-.project-item ul {
+.interest-item ul {
     list-style: none;
     padding-left: 1.5rem;
 }
 
-.project-item li {
+.interest-item li {
     color: var(--secondary-color);
     margin-bottom: 0.5rem;
     position: relative;
 }
 
-.project-item li::before {
+.interest-item li::before {
     content: '•';
     position: absolute;
     left: -1.5rem;
